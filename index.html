@@ -13,12 +13,12 @@
     <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" rel="stylesheet" type="text/css">
     <style type="text/css">
       /* Large desktop */
-      @media (mind-width: 980px) {
+      @media (min-width: 980px) {
       body {
       padding-top: 60px;
       }
-      .linediv-1 {
-      border-right: 60px;
+      .linediv-l {
+      border-right: 1px white solid;
       }
       .linediv-r {
       border-left: 1px white solid;
@@ -31,8 +31,8 @@
       .copy {
       padding: 2.5% 10%;
       }
-      .linediv-1 {
-      border-right: 60px;
+      .linediv-l {
+      border-right: 1px white solid;
       }
       .linediv-r {
       border-left: 1px white solid;
@@ -150,7 +150,7 @@
 	     <div class="span8 offset2">
 	       <div class="statistics">
 		 <div class="span4">
-		   <div class="linediv-1">
+		   <div class="linediv-l">
 		     <h3>1000</h3> <p>backers</p>
 		   </div>
 		 </div>
@@ -169,13 +169,13 @@
 	     <div class="span10 offset1">
 	       <!-- Bootstrap progress bar -->
 	       <div class="thermometer progress active">
-		 <div class="bar bar-sucess" style="width: 60%;"></div>
+		 <div class="bar bar-success" style="width: 60%;"></div>
 		 <div class="bar bar-warning" style="width: 40%;"></div>
 	       </div>
 	     </div>
 	     <div class="span6 offset3 order">
 	       <!-- Standad Bootstrap button. -->
-	       <button class=" btn btn-sucess btn-large">Preorder</button>
+	       <button class=" btn btn-success btn-large">Preorder</button>
 	     </div>
 	     <div class="span8 offset2 social">
 	       <!-- Social buttons are not included in the default Bootstrap. -->
@@ -188,11 +188,21 @@
 	 <!-- Beyond this part the marketing copy begins. -->
 	 <div class="row-fluid section1">
 	   <div class="span5 offset1 asset">
-	     <img class="ing-polaroid" src="http://placehold.it/480x300">
+	     <img class="img-polaroid" src="http://placehold.it/480x300">
 	   </div>
 	   <div class="span5 copy">
 	     <p>
-	       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed fringilla orci. Cras vitae purus velit. Suspendisse quis nunc tristique, tincidunt libero nec, luctus nibh. Curabitur ut dignissim massa. Morbi at convallis orci. Proin lorem augue, convallis in hendrerit non, convallis non nisi. Nulla facilisi. Nulla purus nibh, scelerisque ut sapien id, congue feugiat dolor. Ut suscipit nibh vitae rhoncus ultricies. Aliquam erat volutpat. Curabitur lobortis rhoncus justo eget imperdiet. Donec faucibus, eros vitae blandit vestibulum, felis tellus venenatis est, eu adipiscing diam tellus et dui.
+	       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+            porta, dui sagittis hendrerit rutrum, nunc leo tempus nisl, eu
+            mollis justo velit at nunc. Fusce nec egestas sem. Donec
+            fringilla ante lectus, a pellentesque lacus dignissim ac. Sed
+            volutpat lorem ut congue malesuada. In facilisis scelerisque
+            turpis sed lacinia. Donec in orci lectus. Donec auctor semper
+            quam, eget rhoncus purus fringilla id. Phasellus id nibh eu
+            risus ultrices adipiscing.  Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Donec porta, dui sagittis hendrerit
+            rutrum, nunc leo tempus nisl, eu mollis justo velit at
+            nunc. Fusce nec egestas sem. Donec fringilla.
 	     </p>
 	   </div>
 	 </div>
@@ -200,7 +210,17 @@
 	 <div class="row-fluid section2">
 	   <div class="span5 offset1 copy copy-right">
 	     <p>
-	       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed fringilla orci. Cras vitae purus velit. Suspendisse quis nunc tristique, tincidunt libero nec, luctus nibh. Curabitur ut dignissim massa. Morbi at convallis orci. Proin lorem augue, convallis in hendrerit non, convallis non nisi. Nulla facilisi. Nulla purus nibh, scelerisque ut sapien id, congue feugiat dolor. Ut suscipit nibh vitae rhoncus ultricies. Aliquam erat volutpat. Curabitur lobortis rhoncus justo eget imperdiet. Donec faucibus, eros vitae blandit vestibulum, felis tellus venenatis est, eu adipiscing diam tellus et dui.
+	       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+            porta, dui sagittis hendrerit rutrum, nunc leo tempus nisl, eu
+            mollis justo velit at nunc. Fusce nec egestas sem. Donec
+            fringilla ante lectus, a pellentesque lacus dignissim ac. Sed
+            volutpat lorem ut congue malesuada. In facilisis scelerisque
+            turpis sed lacinia. Donec in orci lectus. Donec auctor semper
+            quam, eget rhoncus purus fringilla id. Phasellus id nibh eu
+            risus ultrices adipiscing.  Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Donec porta, dui sagittis hendrerit
+            rutrum, nunc leo tempus nisl, eu mollis justo velit at
+            nunc. Fusce nec egestas sem. Donec fringilla.
 	     </p>
 	   </div>
 	   <div class="span5 asset">
@@ -210,7 +230,7 @@
 
 	 <!-- For the FAQ, we introduce a little bit of JS, using the accordion. -->
 	 <div class="row-fluid faq">
-	   <div class="span10 offset">
+	   <div class="span10 offset1">
 	     <h3>FAQ</h3>
 	     <div class="accordion" id="accordion2">
 	       <div class="accordion-group">
